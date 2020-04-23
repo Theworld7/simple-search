@@ -20,6 +20,7 @@ body, section::before {
 }
 #app .search-input p {
   width: calc(100% - 1rem);
+	line-height: 1.65;
   outline: none;
 }
 #app .search-input .iconfont {
