@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>主页</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./iconfont/iconfont.css">
+</head>
+<body>
+  <div id="app">
+    <div class="search-input">
+      <span class="iconfont">&#xe63c;</span>
+      <p @keypress.enter.prevent="search" contenteditable ref="searchInput"></p>
+    </div>
+    <section v-show="false"></section>
+  </div>
+  <script src="./scripts/vue.min.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
